@@ -36,15 +36,16 @@ if (isset($_SESSION['user_id'])) {
 
    <?php include 'components/user_header.php'; ?>
 
-   <section class="orders">
+   <section class="orders" style="width: 1200px; height:35vh; margin:auto;">
 
-      <h1 class="heading">Placed Orders.</h1>
+      <h1 class="heading" style="font-size:32px; margin-top:30px">Placed Orders.</h1>
 
       <div class="box-container">
 
          <?php
          if ($user_id == '') {
-            echo '<p class="empty">please login to see your orders</p>';
+            echo '<a href="user_login.php" class="empty" style:" background-color: #db4444;
+    padding: 8px 30px;">please login to see your orders</a>';
          } else {
             $select_orders = $conn->prepare("SELECT * FROM `orders` WHERE user_id = ?");
             $select_orders->execute([$user_id]);

@@ -53,7 +53,7 @@ if (isset($_POST['submit'])) {
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/register.css">
    <link rel="stylesheet" href="css/header.css">
    <link rel="stylesheet" href="css/footer.css">
 
@@ -65,15 +65,36 @@ if (isset($_POST['submit'])) {
 
    <section class="form-container">
 
-      <form action="" method="post">
-         <h3>Register Now.</h3>
-         <input type="text" name="name" required placeholder="enter your username" maxlength="20" class="box">
-         <input type="email" name="email" required placeholder="enter your email" maxlength="50" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-         <input type="password" name="pass" required placeholder="enter your password" maxlength="20" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-         <input type="password" name="cpass" required placeholder="confirm your password" maxlength="20" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-         <input type="submit" value="register now" class="btn" name="submit">
-         <p>Already have an account?</p>
-         <a href="user_login.php" class="option-btn">Login Now.</a>
+      <div class="left">
+         <div class="image">
+            <img src="images/phones.jpg" alt="">
+         </div>
+      </div>
+
+      <form action="" method="post" class="right">
+         <div class="right-content">
+
+            <div class="top-header">
+               <h3>Register Now.</h3>
+               <p>Enter your details below</p>
+            </div>
+
+            <div class="credentials">
+               <input type="text" name="name" required placeholder="enter your username" maxlength="20" class="box">
+               <input type="email" name="email" required placeholder="enter your email" maxlength="50" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+               <input type="password" name="pass" required placeholder="enter your password" maxlength="20" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+               <input type="password" name="cpass" required placeholder="confirm your password" maxlength="20" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+            </div>
+
+
+            <div class="login">
+               <input type="submit" value="register now" class="btn" name="submit">
+               <div class="bottom-content">
+                  <p>Already have an account?</p>
+                  <a href="user_login.php" class="option-btn">Login Now.</a>
+               </div>
+            </div>
+         </div>
       </form>
 
    </section>
