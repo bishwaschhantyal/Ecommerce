@@ -45,7 +45,7 @@ if (isset($_SESSION['user_id'])) {
          <?php
          if ($user_id == '') {
             echo '<a href="user_login.php" class="empty" style:" background-color: #db4444;
-    padding: 8px 30px;">please login to see your orders</a>';
+    padding: 8px 30px; margin-top:20px; color:white">please login to see your orders</a>';
          } else {
             $select_orders = $conn->prepare("SELECT * FROM `orders` WHERE user_id = ?");
             $select_orders->execute([$user_id]);
