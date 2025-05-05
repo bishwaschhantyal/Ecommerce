@@ -76,6 +76,11 @@ a {
     height: 100%;
 }
 
+.searchbar input {
+    background-color: transparent;
+    border: none;
+}
+
 .searchbar p,
 .searchbar i {
     color: #8d8d8d;

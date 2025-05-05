@@ -77,10 +77,11 @@ if (isset($message)) {
          $total_cart_counts = $count_cart_items->rowCount();
          ?>
          <!-- <div id="menu-btn" class="fas fa-bars"></div> -->
-         <a href="search_page.php" class="searchbar">
+         <form action="search_page.php" method="get" class="searchbar">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <p>What are you looking for?</p>
-         </a>
+            <input type="text" name="query" placeholder="What are you looking for?" required>
+         </form>
+
          <div class="inner-icons">
             <a href="wishlist.php" class="icon">
                <i class="fas fa-heart"></i>
