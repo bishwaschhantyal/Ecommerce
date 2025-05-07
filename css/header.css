@@ -79,6 +79,7 @@ a {
 .searchbar input {
     background-color: transparent;
     border: none;
+    outline: none;
 }
 
 .searchbar p,

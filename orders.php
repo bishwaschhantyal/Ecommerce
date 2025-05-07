@@ -36,7 +36,7 @@ if (isset($_SESSION['user_id'])) {
 
    <?php include 'components/user_header.php'; ?>
 
-   <section class="orders" style="width: 1200px; height:35vh; margin:auto;">
+   <section class="orders" style="width: 1200px; height:50vh; margin:auto;">
 
       <h1 class="heading" style="font-size:32px; margin-top:30px">Placed Orders.</h1>
 

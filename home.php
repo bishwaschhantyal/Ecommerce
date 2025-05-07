@@ -337,10 +337,12 @@ include 'components/wishlist_cart.php';
       }
    }
 
-   // Step 2: Fetch product details based on those names
-   $placeholders = rtrim(str_repeat('?,', count($product_names)), ',');
-   $select_products = $conn->prepare("SELECT * FROM `products` WHERE name IN ($placeholders) LIMIT 6");
-   $select_products->execute($product_names);
+   // Step 2: Fetch product details based on those names, if product names exist
+   if (!empty($product_names)) {
+      $placeholders = rtrim(str_repeat('?,', count($product_names)), ',');
+      $select_products = $conn->prepare("SELECT * FROM `products` WHERE name IN ($placeholders) LIMIT 6");
+      $select_products->execute($product_names);
+   }
    ?>
 
    <section class="home-products">
@@ -348,7 +350,7 @@ include 'components/wishlist_cart.php';
       <div class="swiper products-slider">
          <div class="swiper-wrapper latest-products">
             <?php
-            if ($select_products->rowCount() > 0) {
+            if (isset($select_products) && $select_products->rowCount() > 0) {
                while ($fetch_product = $select_products->fetch(PDO::FETCH_ASSOC)) {
             ?>
                   <form action="" method="post" class="swiper-slide slide products">
@@ -381,9 +383,6 @@ include 'components/wishlist_cart.php';
          <div class="swiper-pagination"></div>
       </div>
    </section>
-
-
-
 
 
    <?php include 'components/footer.php'; ?>
