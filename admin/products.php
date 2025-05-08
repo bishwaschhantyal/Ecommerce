@@ -110,11 +110,11 @@ if (isset($_GET['delete'])) {
          <div class="flex">
             <div class="inputBox">
                <span>Product Name (required)</span>
-               <input type="text" class="box" required maxlength="100" placeholder="enter product name" name="name">
+               <input type="text" class="box" required maxlength="100" placeholder="Enter product name" name="name">
             </div>
             <div class="inputBox">
                <span>Product Price (required)</span>
-               <input type="number" min="0" class="box" required max="9999999999" placeholder="enter product price" onkeypress="if(this.value.length == 10) return false;" name="price">
+               <input type="number" min="0" class="box" required max="9999999999" placeholder="Enter product price" onkeypress="if(this.value.length == 10) return false;" name="price">
             </div>
             <div class="inputBox">
                <span>Image 01 (required)</span>
@@ -130,11 +130,11 @@ if (isset($_GET['delete'])) {
             </div>
             <div class="inputBox">
                <span>Product category (required)</span>
-               <textarea name="cartegory" placeholder="enter product category" class="box" required maxlength="500" cols="30" rows="10"></textarea>
+               <textarea name="cartegory" placeholder="Enter product category" class="box" required maxlength="500" cols="30" rows="10"></textarea>
             </div>
             <div class="inputBox">
                <span>Product description (required)</span>
-               <textarea name="details" placeholder="enter product details" class="box" required maxlength="500" cols="30" rows="10"></textarea>
+               <textarea name="details" placeholder="Enter product details" class="box" required maxlength="500" cols="30" rows="10"></textarea>
             </div>
          </div>
 

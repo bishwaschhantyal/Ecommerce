@@ -65,7 +65,7 @@ if(isset($_GET['delete'])){
    <?php
          }
       }else{
-         echo '<p class="empty">no accounts available!</p>';
+         echo '<p class="empty">No accounts available!</p>';
       }
    ?>
 
