@@ -27,7 +27,7 @@ include 'components/wishlist_cart.php';
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/shop.css">
    <link rel="stylesheet" href="css/header.css">
    <link rel="stylesheet" href="css/footer.css">
 
@@ -38,7 +38,7 @@ include 'components/wishlist_cart.php';
 
    <?php include 'components/user_header.php'; ?>
 
-   <section class="products">
+   <section class="products" style="padding-top: 30px;">
 
       <h1 class="heading">Latest Products.</h1>
 
@@ -50,7 +50,7 @@ include 'components/wishlist_cart.php';
          if ($select_products->rowCount() > 0) {
             while ($fetch_product = $select_products->fetch(PDO::FETCH_ASSOC)) {
          ?>
-               <form action="" method="post" class="box">
+               <form action="" method="post" class="search-box-item">
                   <input type="hidden" name="pid" value="<?= $fetch_product['id']; ?>">
                   <input type="hidden" name="name" value="<?= $fetch_product['name']; ?>">
                   <input type="hidden" name="price" value="<?= $fetch_product['price']; ?>">
@@ -59,7 +59,7 @@ include 'components/wishlist_cart.php';
                   <a href="quick_view.php?pid=<?= $fetch_product['id']; ?>" class="fas fa-eye"></a>
                   <img src="uploaded_img/<?= $fetch_product['image_01']; ?>" alt="">
                   <div class="name"><?= $fetch_product['name']; ?></div>
-                  <div class="flex">
+                  <div class="price-btn">
                      <div class="price"><span>Nrs.</span><?= $fetch_product['price']; ?><span>/-</span></div>
                      <input type="number" name="qty" class="qty" min="1" max="99" onkeypress="if(this.value.length == 2) return false;" value="1">
                   </div>
@@ -75,19 +75,6 @@ include 'components/wishlist_cart.php';
       </div>
 
    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
    <?php include 'components/footer.php'; ?>
 
    <script src="js/script.js"></script>
