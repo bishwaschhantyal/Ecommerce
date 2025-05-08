@@ -180,9 +180,8 @@ section {
     flex-direction: column;
     padding: 20px 0px;
     margin-left: -2px;
-    background-color: #db4444;
+    /* background-color: #db4444; */
     color: white;
-
 }
 
 .category a:hover {

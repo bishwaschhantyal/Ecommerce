@@ -77,8 +77,9 @@ if (isset($_POST['order'])) {
                </div>
                <div class="inputBox">
                   <span>Your Number:</span>
-                  <input type="number" name="number" required>
+                  <input type="tel" name="number" pattern="^(98|97)\d{8}$" minlength="10" maxlength="10" required title="Phone number must start with 98 or 97 and be exactly 10 digits">
                </div>
+
                <div class="inputBox">
                   <span>Your Email:</span>
                   <input type="email" name="email" required>
