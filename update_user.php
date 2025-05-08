@@ -61,7 +61,7 @@ if (isset($_POST['submit'])) {
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/user_update.css">
    <link rel="stylesheet" href="css/header.css">
    <link rel="stylesheet" href="css/footer.css">
 
@@ -74,16 +74,34 @@ if (isset($_POST['submit'])) {
 
    <section class="form-container">
 
-      <form action="" method="post">
-         <h3>Update now</h3>
-         <input type="hidden" name="prev_pass" value="<?= $fetch_profile["password"]; ?>">
-         <input type="text" name="name" required placeholder="enter your username" maxlength="20" class="box" value="<?= $fetch_profile["name"]; ?>">
-         <input type="email" name="email" required placeholder="enter your email" maxlength="50" class="box" oninput="this.value = this.value.replace(/\s/g, '')" value="<?= $fetch_profile["email"]; ?>">
-         <input type="password" name="old_pass" placeholder="enter your old password" maxlength="20" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-         <input type="password" name="new_pass" placeholder="enter your new password" maxlength="20" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-         <input type="password" name="cpass" placeholder="confirm your new password" maxlength="20" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-         <input type="submit" value="update now" class="btn" name="submit">
-      </form>
+   <form action="" method="post">
+   <h3 style="color: #e60023; font-size: 16px; margin-bottom: 25px;">Edit Your Profile</h3>
+
+   <input type="hidden" name="prev_pass" value="<?= $fetch_profile["password"]; ?>">
+
+   <div style="display: flex; gap: 20px; margin-bottom: 20px;" class="input-row" >
+      <div style="flex: 1;">
+         <label for="name" style="font-size: 13px; font-weight: 500;">Full Name</label>
+         <input type="text" id="name" name="name" required placeholder="Full Name" maxlength="20" class="box-user1" value="<?= $fetch_profile["name"]; ?>">
+      </div>
+      <div style="flex: 1;">
+         <label for="email" style="font-size: 13px; font-weight: 500;">Email</label>
+         <input type="email" id="email" name="email" required placeholder="Enter Email" maxlength="50" class="box-user" oninput="this.value = this.value.replace(/\s/g, '')" value="<?= $fetch_profile["email"]; ?>">
+      </div>
+   </div>
+
+   <div style="margin-bottom: 15px;">
+      <label style="font-size: 13px; font-weight: 500; margin-bottom: 8px; display: block;">Password Changes</label>
+      <input type="password" name="old_pass" placeholder="Current Password" maxlength="20" class="box-user" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" name="new_pass" placeholder="New Password" maxlength="20" class="box-user" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" name="cpass" placeholder="Confirm New Password" maxlength="20" class="box-user" oninput="this.value = this.value.replace(/\s/g, '')">
+   </div>
+
+   <div style="display: flex; justify-content: flex-end; gap: 15px; margin-top: 20px;">
+      <input type="submit" value="Save Changes" class="btn" name="submit" style="background-color: #e60023;">
+   </div>
+</form>
+
 
    </section>
 
