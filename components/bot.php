@@ -81,7 +81,7 @@
         } else if (lowerMsg.includes("help")) {
           botMsg.textContent = "Sure! I can help with orders, browsing gadgets, payments, and more.";
         } else if (lowerMsg.includes("what's your name") || lowerMsg.includes("who are you")) {
-          botMsg.textContent = "I'm your shopping assistant bot 🤖 here to help you with gadgets!";
+          botMsg.textContent = "I'm your shopping assistant bot .Here to help you with gadgets!";
         } else if (lowerMsg.includes("thank you") || lowerMsg.includes("thanks")) {
           botMsg.textContent = "You're welcome! Let me know if you need anything else.";
         } else if (lowerMsg.includes("you're amazing") || lowerMsg.includes("good bot")) {
