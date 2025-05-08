@@ -32,12 +32,15 @@ include 'components/wishlist_cart.php';
    <link rel="stylesheet" href="css/home.css">
    <link rel="stylesheet" href="css/header.css">
    <link rel="stylesheet" href="css/footer.css">
+   <link rel="stylesheet" href="css/bot.css">
+
    <!-- <script src="./js/script.js"></script> -->
 </head>
 
 <body>
 
    <?php include 'components/user_header.php'; ?>
+   <?php include 'components/bot.php'; ?>
 
    <section class="main">
 
