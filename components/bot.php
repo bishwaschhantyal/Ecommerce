@@ -85,7 +85,7 @@
         } else if (lowerMsg.includes("thank you") || lowerMsg.includes("thanks")) {
           botMsg.textContent = "You're welcome! Let me know if you need anything else.";
         } else if (lowerMsg.includes("you're amazing") || lowerMsg.includes("good bot")) {
-          botMsg.textContent = "Aww, thank you! 😊 You're awesome too!";
+          botMsg.textContent = "Awww, thank you! 😊 You're awesome too!";
         } else if (lowerMsg.includes("tell me a joke")) {
           botMsg.textContent = "Why did the gadget go to school? Because it wanted to be smarter!";
         } else if (lowerMsg.includes("what can you do")) {
