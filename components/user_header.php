@@ -44,7 +44,7 @@ if (isset($message)) {
 </style>
 <div class="top">
    <p>
-      Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+      Summer Mega Sale on Electronics - Up to 50% OFF!
    </p>
    <a href="../shop.php" style="text-decoration:underline;">Shop Now</a>
 

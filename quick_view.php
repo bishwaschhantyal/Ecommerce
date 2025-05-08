@@ -1,17 +1,8 @@
 <?php
-
 include 'components/connect.php';
-
 session_start();
-
-if (isset($_SESSION['user_id'])) {
-   $user_id = $_SESSION['user_id'];
-} else {
-   $user_id = '';
-};
-
+$user_id = $_SESSION['user_id'] ?? '';
 include 'components/wishlist_cart.php';
-
 ?>
 
 <!DOCTYPE html>
@@ -30,8 +21,6 @@ include 'components/wishlist_cart.php';
    <link rel="stylesheet" href="css/quick-view.css">
    <link rel="stylesheet" href="css/header.css">
    <link rel="stylesheet" href="css/footer.css">
-
-
 </head>
 
 <body>
@@ -39,8 +28,6 @@ include 'components/wishlist_cart.php';
    <?php include 'components/user_header.php'; ?>
 
    <section class="quick-view">
-
-      <h1 class="heading">Quick view</h1>
 
       <?php
       $pid = $_GET['pid'];
@@ -54,6 +41,7 @@ include 'components/wishlist_cart.php';
                <input type="hidden" name="name" value="<?= $fetch_product['name']; ?>">
                <input type="hidden" name="price" value="<?= $fetch_product['price']; ?>">
                <input type="hidden" name="image" value="<?= $fetch_product['image_01']; ?>">
+
                <div class="row">
                   <div class="image-container">
                      <div class="main-image">
@@ -65,16 +53,18 @@ include 'components/wishlist_cart.php';
                         <img src="uploaded_img/<?= $fetch_product['image_03']; ?>" alt="">
                      </div>
                   </div>
+
                   <div class="content">
                      <div class="name"><?= $fetch_product['name']; ?></div>
                      <div class="flex">
                         <div class="price"><span>Nrs.</span><?= $fetch_product['price']; ?><span>/-</span></div>
-                        <input type="number" name="qty" class="qty" min="1" max="99" onkeypress="if(this.value.length == 2) return false;" value="1">
+                        <input type="number" name="qty" class="qty" min="1" max="99" value="1"
+                           onkeypress="if(this.value.length == 2) return false;">
                      </div>
                      <div class="details"><?= $fetch_product['details']; ?></div>
                      <div class="flex-btn">
-                        <input type="submit" value="add to cart" class="btn" name="add_to_cart">
-                        <input class="option-btn" type="submit" name="add_to_wishlist" value="add to wishlist">
+                        <input type="submit" value="Add to cart" class="btn" name="add_to_cart">
+                        <input type="submit" value="Add to wishlist" class="option-btn" name="add_to_wishlist">
                      </div>
                   </div>
                </div>
@@ -82,26 +72,12 @@ include 'components/wishlist_cart.php';
       <?php
          }
       } else {
-         echo '<p class="empty">no products added yet!</p>';
+         echo '<p class="empty">No products added yet!</p>';
       }
       ?>
-
    </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
    <?php include 'components/footer.php'; ?>
-
    <script src="js/script.js"></script>
 
 </body>
