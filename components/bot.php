@@ -228,7 +228,7 @@
         } else if (lowerMsg.includes("payment failed")) {
           botMsg.textContent = "If your payment failed, try again or contact your payment provider for assistance.";
         } else {
-          botMsg.textContent = "I'm your gadget assistant . Ask me anything about shopping or just say hi!";
+          botMsg.textContent = "I'm your gadget assistant. Ask me anything about shopping or just say hi!";
         }
 
         chatBody.appendChild(botMsg);
