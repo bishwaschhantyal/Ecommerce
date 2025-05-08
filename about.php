@@ -43,19 +43,44 @@ if (isset($_SESSION['user_id'])) {
       <div class="row">
 
          <div class="image">
-            <img src="images/23.png" alt="">
+            <img src="images/colab.webp" alt="">
          </div>
 
          <div class="content">
-            <h3>Developer's Message:</h3>
-            <p>Hey There ! I'm Salman Khan. A Student of BSc in Software Engineering Department . I love designing websites and exploring new things. Learning new things is my hobby.</p>
-
+            <h3>Our Story</h3>
+            <p>
+               Launched in 2025, <strong>AspiringDevelopers</strong> is a collaborative tech team formed by six passionate individuals — Shubham, Biswas, Deep, Atharva, Shijal, and Suraj. Driven by a shared vision to innovate and learn, we specialize in creating smart, user-friendly digital solutions across web development and design.
+            </p>
+            <p>
+               Based in Nepal, AspiringDevelopers brings together diverse skillsets, from frontend and backend development to database and UI/UX design. With a commitment to quality, collaboration, and continuous learning, we aim to deliver impactful projects that reflect our dedication to excellence and teamwork.
+            </p>
             <a href="contact.php" class="btn">Contact Us</a>
          </div>
 
       </div>
 
    </section>
+
+   <section class="stats-section">
+   <div class="stats-container">
+      <div class="stat-box">
+         <div class="icon"><i class="fas fa-store"></i></div>
+         <h3>1.5k</h3>
+         <p>Sellers active on our site</p>
+      </div>
+      <div class="stat-box">
+         <div class="icon"><i class="fas fa-shopping-bag"></i></div>
+         <h3>2.1k</h3>
+         <p>Customer active on our site</p>
+      </div>
+      <div class="stat-box">
+         <div class="icon"><i class="fas fa-money-bill-wave"></i></div>
+         <h3>15k</h3>
+         <p>Annual gross sale in our site</p>
+      </div>
+   </div>
+</section>
+
 
    <section class="reviews">
 
@@ -66,8 +91,8 @@ if (isset($_SESSION['user_id'])) {
          <div class="swiper-wrapper">
 
             <div class="swiper-slide slide">
-               <img src="images/pic-1.jpeg" alt="">
-               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum nesciunt minima blanditiis quas accusantium ullam aperiam quo, et alias saepe similique obcaecati repellendus voluptatibus tenetur odio fuga natus magni. Et!</p>
+               <img src="images/Dip.png" alt="">
+               <p>AspiringDevelopers exceeded my expectations. They delivered a beautiful, functional website ahead of schedule. Highly recommended!!</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -75,12 +100,12 @@ if (isset($_SESSION['user_id'])) {
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star-half-alt"></i>
                </div>
-               <h3> <a href="" target="_blank">John</a></h3>
+               <h3> <a href="" target="_blank">Dipendra Roka</a></h3>
             </div>
 
             <div class="swiper-slide slide">
-               <img src="images/pic-2.jpeg" alt="">
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio dolorem doloremque in deserunt reiciendis earum itaque, reprehenderit amet accusantium dolores qui atque ad inventore mollitia ratione corrupti eius, sed laborum.</p>
+               <img src="images/Suraj.jpg" alt="">
+               <p>Amazing attention to detail and fantastic communication throughout the entire process. I'd love to work with them again!</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -88,12 +113,12 @@ if (isset($_SESSION['user_id'])) {
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star-half-alt"></i>
                </div>
-               <h3><a href="h" target="_blank">Hari</a></h3>
+               <h3><a href="h" target="_blank">Suraj Tamang</a></h3>
             </div>
 
             <div class="swiper-slide slide">
-               <img src="images/pic-7.avif" alt="">
-               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab doloremque earum, cumque fugiat magnam fugit beatae molestiae velit! Sunt velit totam laudantium reiciendis minima obcaecati ducimus temporibus, quis consequatur quos?</p>
+               <img src="images/Bishwass.jpg" alt="">
+               <p>The team understood my vision perfectly and turned it into a professional, user-friendly, and visually appealing site. Deep and team were great to work with!</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -101,12 +126,12 @@ if (isset($_SESSION['user_id'])) {
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star-half-alt"></i>
                </div>
-               <h3><a href="" target="_blank">Ram</a></h3>
+               <h3><a href="" target="_blank">Bishwas Chhantyal</a></h3>
             </div>
 
             <div class="swiper-slide slide">
-               <img src="images/pic-4.jpg" alt="">
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam exercitationem odit modi nam soluta nihil perspiciatis ratione minima, repellendus, hic aliquid itaque, vitae maxime voluptatum delectus consectetur et! Odit, obcaecati.</p>
+               <img src="images/Shubham.jpg" alt="">
+               <p>Creative, professional, and reliable — AspiringDevelopers made the entire process so smooth, efficient, and enjoyable. I love the end result!</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -114,12 +139,12 @@ if (isset($_SESSION['user_id'])) {
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star-half-alt"></i>
                </div>
-               <h3><a href="" target="_blank">Subash</a></h3>
+               <h3><a href="" target="_blank">Shubham Pandey</a></h3>
             </div>
 
             <div class="swiper-slide slide">
-               <img src="images/pic-1.avif" alt="">
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsam labore at expedita odio deleniti similique. Non qui saepe ea. Praesentium dolores ex voluptatum animi incidunt. Maiores dolore neque quibusdam.</p>
+               <img src="images/atharva.jpg" alt="">
+               <p>One of the best teams I've ever hired. Their skills, dedication, and seamless teamwork really show in the final product.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -127,12 +152,12 @@ if (isset($_SESSION['user_id'])) {
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star-half-alt"></i>
                </div>
-               <h3><a href="" target="_blank">Ranjit</a></h3>
+               <h3><a href="" target="_blank">Atharva Paudel</a></h3>
             </div>
 
             <div class="swiper-slide slide">
-               <img src="images/pic-6.jpeg" alt="">
-               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque assumenda voluptate officia tempore labore perferendis unde! Maxime hic magni molestiae animi illum et, facilis quasi neque aut nostrum commodi ut!</p>
+               <img src="images/Shijal.png" alt="">
+               <p>Deep and Suraj were especially helpful in refining our eCommerce features. Truly a passionate and dedicated group.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -140,22 +165,42 @@ if (isset($_SESSION['user_id'])) {
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star-half-alt"></i>
                </div>
-               <h3><a href="" target="_blank">Pranil</a></h3>
+               <h3><a href="" target="_blank">Shijal Shakya</a></h3>
             </div>
 
          </div>
-
-         <div class="swiper-pagination"></div>
 
       </div>
 
    </section>
 
+      <!-- Our Service -->
 
+      <section class="info-section">
+      <div class="info-box">
+         <div class="icon">
+            <i class="fas fa-truck"></i>
+         </div>
+         <h3>FREE AND FAST DELIVERY</h3>
+         <p>Free delivery for all orders over $140</p>
+      </div>
 
+      <div class="info-box">
+         <div class="icon">
+            <i class="fas fa-headset"></i>
+         </div>
+         <h3>24/7 CUSTOMER SERVICE</h3>
+         <p>Friendly 24/7 customer support</p>
+      </div>
 
-
-
+      <div class="info-box">
+         <div class="icon">
+            <i class="fas fa-check-circle"></i>
+         </div>
+         <h3>MONEY BACK GUARANTEE</h3>
+         <p>We return money within 30 days</p>
+      </div>
+   </section>
 
 
 
