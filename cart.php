@@ -46,7 +46,7 @@ if (isset($_POST['update_qty'])) {
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/cart.css">
    <link rel="stylesheet" href="css/header.css">
    <link rel="stylesheet" href="css/footer.css">
 
@@ -79,14 +79,14 @@ if (isset($_POST['update_qty'])) {
                      <input type="number" name="qty" class="qty" min="1" max="99" onkeypress="if(this.value.length == 2) return false;" value="<?= $fetch_cart['quantity']; ?>">
                      <button type="submit" class="fas fa-edit" name="update_qty"></button>
                   </div>
-                  <div class="sub-total"> Sub Total : <span>$<?= $sub_total = ($fetch_cart['price'] * $fetch_cart['quantity']); ?>/-</span> </div>
-                  <input type="submit" value="delete item" onclick="return confirm('delete this from cart?');" class="delete-btn" name="delete">
+                  <div class="sub-total"> Sub Total : <span>Nrs.<?= $sub_total = ($fetch_cart['price'] * $fetch_cart['quantity']); ?>/-</span> </div>
+                  <input type="submit" value="Delete item" onclick="return confirm('Delete this from cart?');" class="delete-btn" name="delete">
                </form>
          <?php
                $grand_total += $sub_total;
             }
          } else {
-            echo '<p class="empty">your cart is empty</p>';
+            echo '<p class="empty">Your cart is empty</p>';
          }
          ?>
       </div>
