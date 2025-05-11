@@ -55,7 +55,7 @@ a {
     gap: 16px;
     font-size: 14px;
     font-weight: 500;
-    margin-left: 180px;
+    justify-content: center;
 }
 
 .navbar a:hover {

@@ -41,7 +41,7 @@ if (isset($_GET['delete_all'])) {
    <!-- custom css file link  -->
    <!-- <link rel="stylesheet" href="css/style.css"> -->
    <link rel="stylesheet" href="css/header.css">
-   <link rel="stylesheet" href="css/whishlist.css">
+   <link rel="stylesheet" href="css/wishlist.css">
    <link rel="stylesheet" href="css/footer.css">
 
 
@@ -65,7 +65,7 @@ if (isset($_GET['delete_all'])) {
             while ($fetch_wishlist = $select_wishlist->fetch(PDO::FETCH_ASSOC)) {
                $grand_total += $fetch_wishlist['price'];
          ?>
-               <form action="" method="post" class="box">
+               <form action="" method="post" class="wishlist-box">
                   <input type="hidden" name="pid" value="<?= $fetch_wishlist['pid']; ?>">
                   <input type="hidden" name="wishlist_id" value="<?= $fetch_wishlist['id']; ?>">
                   <input type="hidden" name="name" value="<?= $fetch_wishlist['name']; ?>">
@@ -84,7 +84,7 @@ if (isset($_GET['delete_all'])) {
          <?php
             }
          } else {
-            echo '<p class="empty">your wishlist is empty</p>';
+            echo '<p class="empty">Your wishlist is empty</p>';
          }
          ?>
       </div>
@@ -96,18 +96,6 @@ if (isset($_GET['delete_all'])) {
       </div>
 
    </section>
-
-
-
-
-
-
-
-
-
-
-
-
 
    <?php include 'components/footer.php'; ?>
 
