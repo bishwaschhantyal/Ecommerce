@@ -84,7 +84,7 @@ if (isset($_SESSION['user_id'])) {
 
    <section class="reviews">
 
-      <h1 class="heading">Client's Reviews.</h1>
+      <h1 class="heading">Aspiring Team Member's</h1>
 
       <div class="swiper reviews-slider">
 
@@ -93,79 +93,67 @@ if (isset($_SESSION['user_id'])) {
             <div class="swiper-slide slide">
                <img src="images/Dip.png" alt="">
                <p>AspiringDevelopers exceeded my expectations. They delivered a beautiful, functional website ahead of schedule. Highly recommended!!</p>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
                <h3> <a href="" target="_blank">Dipendra Roka</a></h3>
+                 <div class="social-icons">
+                     <a href="#"><i class="fab fa-twitter"></i></a>
+                     <a href="https://www.instagram.com/dipforuuu/"><i class="fab fa-instagram"></i></a>
+                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
             </div>
 
             <div class="swiper-slide slide">
                <img src="images/Suraj.jpg" alt="">
                <p>Amazing attention to detail and fantastic communication throughout the entire process. I'd love to work with them again!</p>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
                <h3><a href="h" target="_blank">Suraj Tamang</a></h3>
+               <div class="social-icons">
+                     <a href="#"><i class="fab fa-twitter"></i></a>
+                     <a href="#"><i class="fab fa-instagram"></i></a>
+                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
             </div>
 
             <div class="swiper-slide slide">
                <img src="images/Bishwass.jpg" alt="">
                <p>The team understood my vision perfectly and turned it into a professional, user-friendly, and visually appealing site. Deep and team were great to work with!</p>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
                <h3><a href="" target="_blank">Bishwas Chhantyal</a></h3>
+               <div class="social-icons">
+                     <a href="#"><i class="fab fa-twitter"></i></a>
+                     <a href="https://www.instagram.com/biswas__ctl/"><i class="fab fa-instagram"></i></a>
+                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
             </div>
 
             <div class="swiper-slide slide">
                <img src="images/Shubham.jpg" alt="">
                <p>Creative, professional, and reliable — AspiringDevelopers made the entire process so smooth, efficient, and enjoyable. I love the end result!</p>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
                <h3><a href="" target="_blank">Shubham Pandey</a></h3>
+               <div class="social-icons">
+                     <a href="#"><i class="fab fa-twitter"></i></a>
+                     <a href="https://www.instagram.com/_shubham.pandey_/"><i class="fab fa-instagram"></i></a>
+                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
             </div>
 
             <div class="swiper-slide slide">
                <img src="images/atharva.jpg" alt="">
                <p>One of the best teams I've ever hired. Their skills, dedication, and seamless teamwork really show in the final product.</p>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
                <h3><a href="" target="_blank">Atharva Paudel</a></h3>
+               <div class="social-icons">
+                     <a href="#"><i class="fab fa-twitter"></i></a>
+                     <a href="#"><i class="fab fa-instagram"></i></a>
+                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
             </div>
 
             <div class="swiper-slide slide">
                <img src="images/Shijal.png" alt="">
                <p>Deep and Suraj were especially helpful in refining our eCommerce features. Truly a passionate and dedicated group.</p>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
                <h3><a href="" target="_blank">Shijal Shakya</a></h3>
+               <div class="social-icons">
+                     <a href="#"><i class="fab fa-twitter"></i></a>
+                     <a href="https://www.instagram.com/_zenix_/"><i class="fab fa-instagram"></i></a>
+                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
             </div>
 
          </div>
@@ -173,6 +161,9 @@ if (isset($_SESSION['user_id'])) {
       </div>
 
    </section>
+
+
+   
 
       <!-- Our Service -->
 
