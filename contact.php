@@ -70,7 +70,7 @@ if (isset($_POST['send'])) {
          <i class="fas fa-phone"></i>
          <div>
             <h4>Call To Us</h4>
-            <p>We are available 24/7, 7 days a week.<br>Phone: +977 9823696701</p>
+            <p>We are available 24/7, 7 days a week.<br>Phone: +977 9823696700/p>
          </div>
       </div>
       <hr>
