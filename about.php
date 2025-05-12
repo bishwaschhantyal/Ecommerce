@@ -52,7 +52,7 @@ if (isset($_SESSION['user_id'])) {
                Launched in 2025, <strong>Aspiring Developers</strong> is a collaborative tech team formed by six passionate individuals — Shubham, Biswas, Deep, Atharva, Shijal, and Suraj. Driven by a shared vision to innovate and learn, we specialize in creating smart, user-friendly digital solutions across web development and design.
             </p>
             <p>
-               Based in Nepal, AspiringDevelopers brings together diverse skillsets, from frontend and backend development to database and UI/UX design. With a commitment to quality, collaboration, and continuous learning, we aim to deliver impactful projects that reflect our dedication to excellence and teamwork.
+               Based in Nepal, AspiringDevelopers brings together diverse skillsets, from frontend and backend development to database and UI/UX design.Along with a commitment to quality, collaboration, and continuous learning, we aim to deliver impactful projects that reflect our dedication to excellence and teamwork.
             </p>
             <a href="contact.php" class="btn">Contact Us</a>
          </div>
