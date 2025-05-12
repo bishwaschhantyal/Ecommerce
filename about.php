@@ -97,7 +97,7 @@ if (isset($_SESSION['user_id'])) {
                  <div class="social-icons">
                      <a href="#"><i class="fab fa-twitter"></i></a>
                      <a href="https://www.instagram.com/dipforuuu/"><i class="fab fa-instagram"></i></a>
-                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                     
                   </div>
             </div>
 
@@ -108,7 +108,7 @@ if (isset($_SESSION['user_id'])) {
                <div class="social-icons">
                      <a href="#"><i class="fab fa-twitter"></i></a>
                      <a href="#"><i class="fab fa-instagram"></i></a>
-                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                     
                   </div>
             </div>
 
@@ -119,7 +119,7 @@ if (isset($_SESSION['user_id'])) {
                <div class="social-icons">
                      <a href="#"><i class="fab fa-twitter"></i></a>
                      <a href="https://www.instagram.com/biswas__ctl/"><i class="fab fa-instagram"></i></a>
-                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                     
                   </div>
             </div>
 
@@ -130,7 +130,7 @@ if (isset($_SESSION['user_id'])) {
                <div class="social-icons">
                      <a href="#"><i class="fab fa-twitter"></i></a>
                      <a href="https://www.instagram.com/_shubham.pandey_/"><i class="fab fa-instagram"></i></a>
-                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                     
                   </div>
             </div>
 
@@ -141,7 +141,7 @@ if (isset($_SESSION['user_id'])) {
                <div class="social-icons">
                      <a href="#"><i class="fab fa-twitter"></i></a>
                      <a href="#"><i class="fab fa-instagram"></i></a>
-                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                     
                   </div>
             </div>
 
@@ -152,7 +152,7 @@ if (isset($_SESSION['user_id'])) {
                <div class="social-icons">
                      <a href="#"><i class="fab fa-twitter"></i></a>
                      <a href="https://www.instagram.com/_zenix_/"><i class="fab fa-instagram"></i></a>
-                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                     
                   </div>
             </div>
 
