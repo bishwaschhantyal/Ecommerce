@@ -78,7 +78,7 @@ if (isset($_POST['send'])) {
          <i class="fas fa-envelope"></i>
          <div>
             <h4>Write To Us</h4>
-            <p>Fill out our form and we will contact you within 24 hours.<br><br>
+            <p>Fill out our form and we will get back to you within 24 hours.<br><br>
                Emails: customer@shopper.com<br>
                support@shopper.com
             </p>
