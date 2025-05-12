@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 a {
     text-decoration: none;
     color: inherit;
@@ -53,7 +57,7 @@ a {
     display: flex;
     align-items: center;
     gap: 16px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     justify-content: center;
 }

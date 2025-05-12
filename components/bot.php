@@ -24,6 +24,10 @@
       <button class="send-btn">✈️</button>
     </div>
   </div>
+  <div class="we-are-here-bubble">
+    We are here!
+  </div>
+
 
   <div class="chat-icon">
     💬
