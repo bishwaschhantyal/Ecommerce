@@ -30,7 +30,7 @@ include 'components/wishlist_cart.php';
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/home.css">
-   <link rel="stylesheet" href="css/header1.css">
+   <link rel="stylesheet" href="css/header.css">
    <link rel="stylesheet" href="css/footer.css">
    <link rel="stylesheet" href="css/bot.css">
 
@@ -39,7 +39,7 @@ include 'components/wishlist_cart.php';
 
 <body>
 
-   <?php include 'components/user_header1.php'; ?>
+   <?php include 'components/user_header.php'; ?>
    <?php include 'components/bot.php'; ?>
 
    <section class="main">
