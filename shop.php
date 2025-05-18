@@ -40,7 +40,7 @@ include 'components/wishlist_cart.php';
 
    <section class="products" style="padding-top: 30px;">
 
-      <h1 class="heading">Latest Products.</h1>
+      <h1 class="heading">Products.</h1>
 
       <div class="box-container">
 

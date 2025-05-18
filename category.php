@@ -27,7 +27,7 @@ include 'components/wishlist_cart.php';
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/category.css">
    <link rel="stylesheet" href="css/header.css">
    <link rel="stylesheet" href="css/footer.css">
 
@@ -51,7 +51,7 @@ include 'components/wishlist_cart.php';
          if ($select_products->rowCount() > 0) {
             while ($fetch_product = $select_products->fetch(PDO::FETCH_ASSOC)) {
          ?>
-               <form action="" method="post" class="box">
+               <form action="" method="post" class="box-category">
                   <input type="hidden" name="pid" value="<?= $fetch_product['id']; ?>">
                   <input type="hidden" name="name" value="<?= $fetch_product['name']; ?>">
                   <input type="hidden" name="price" value="<?= $fetch_product['price']; ?>">
@@ -76,18 +76,6 @@ include 'components/wishlist_cart.php';
       </div>
 
    </section>
-
-
-
-
-
-
-
-
-
-
-
-
 
    <?php include 'components/footer.php'; ?>
 

@@ -116,8 +116,10 @@
         ) {
           botMsg.textContent = "I can help you cancel your order. Please provide your order ID.";
         } else if (
-          lowerMsg.includes("payment") &&
-          (lowerMsg.includes("options") || lowerMsg.includes("methods") || lowerMsg.includes("available")) ||
+          lowerMsg.includes("payment") ||
+          lowerMsg.includes("options") ||
+          lowerMsg.includes("methods") ||
+          lowerMsg.includes("available") ||
           lowerMsg.includes("which payment") ||
           lowerMsg.includes("how can i pay") ||
           lowerMsg.includes("khalti or esewa") ||

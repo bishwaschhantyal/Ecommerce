@@ -43,73 +43,73 @@ include 'components/wishlist_cart.php';
    <?php include 'components/bot.php'; ?>
 
    <section class="main">
-    
-    <!-- Sidebar Category List -->
-    <section class="click">
-      <div class="cat">
-        <a href="category.php?cartegory=laptop">Laptops & Computers</a>
-        <a href="category.php?category=tv">TVs & Home Entertainment</a>
-        <a href="category.php?cartegory=camera">Camera</a>
-        <a href="category.php?category=fridge">Home Appliances</a>
-        <a href="#">Smartphone</a>
-        <a href="category.php?category=mouse">Computer Accessories</a>
-        <a href="#">Storage Devices</a>
-        <a href="#">Home Appliances</a>
-        <a href="#">Power Banks & Chargers</a>
-      </div>
-    </section>
 
-    <!-- Swiper Banner Section -->
-    <section class="home">
-      <div class="swiper home-slider">
-        <div class="swiper-wrapper">
+      <!-- Sidebar Category List -->
+      <section class="click">
+         <div class="cat">
+            <a href="category.php?cartegory=laptop">Laptops & Computers</a>
+            <a href="category.php?cartegory=tv">TVs & Home Entertainment</a>
+            <a href="category.php?cartegory=camera">Camera</a>
+            <a href="category.php?cartegory=fridge">Home Appliances</a>
+            <a href="category.php?cartegory=smartphone">Smartphone</a>
+            <a href="category.php?cartegory=mouse">Computer Accessories</a>
+            <a href="#">Storage Devices</a>
+            <a href="#">Home Appliances</a>
+            <a href="#">Power Banks & Chargers</a>
+         </div>
+      </section>
 
-          <!-- Slide 1 -->
-          <div class="swiper-slide slide">
-            <div class="image">
-              <img src="images/iphone.png" alt="iPhone">
-            </div>
-            <div class="content">
-              <span>iPhone 14 Series</span>
-              <h3>Up to 10% <br>off Voucher</h3>
-              <a href="category.php?category=smartphone" class="btn">Shop Now</a>
-            </div>
-          </div>
+      <!-- Swiper Banner Section -->
+      <section class="home">
+         <div class="swiper home-slider">
+            <div class="swiper-wrapper">
 
-          <!-- Slide 2 -->
-          <div class="swiper-slide slide">
-            <div class="image">
-              <img src="images/home-img-2.png" alt="Watches">
-            </div>
-            <div class="content">
-              <span>Latest Watches</span>
-              <h3>Up to 50% <br>off Voucher</h3>
-              <a href="category.php?category=watch" class="btn">Shop Now</a>
-            </div>
-          </div>
+               <!-- Slide 1 -->
+               <div class="swiper-slide slide">
+                  <div class="image">
+                     <img src="images/iphone.png" alt="iPhone">
+                  </div>
+                  <div class="content">
+                     <span>iPhone 14 Series</span>
+                     <h3>Up to 10% <br>off Voucher</h3>
+                     <a href="category.php?cartegory=smartphone" class="btn">Shop Now</a>
+                  </div>
+               </div>
 
-          <!-- Slide 3 -->
-          <div class="swiper-slide slide">
-            <div class="image">
-              <img src="images/home-img-3.png" alt="Headsets">
-            </div>
-            <div class="content">
-              <span>upto 50% off</span>
-              <h3>Latest headsets</h3>
-              <a href="shop.php" class="btn">Shop Now</a>
-            </div>
-          </div>
+               <!-- Slide 2 -->
+               <div class="swiper-slide slide">
+                  <div class="image">
+                     <img src="images/home-img-2.png" alt="Watches">
+                  </div>
+                  <div class="content">
+                     <span>Latest Watches</span>
+                     <h3>Up to 50% <br>off Voucher</h3>
+                     <a href="category.php?cartegory=watch" class="btn">Shop Now</a>
+                  </div>
+               </div>
 
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </section>
+               <!-- Slide 3 -->
+               <div class="swiper-slide slide">
+                  <div class="image">
+                     <img src="images/home-img-3.png" alt="Headsets">
+                  </div>
+                  <div class="content">
+                     <span>upto 50% off</span>
+                     <h3>Latest headsets</h3>
+                     <a href="shop.php" class="btn">Shop Now</a>
+                  </div>
+               </div>
 
-  </section>  
+            </div>
+            <div class="swiper-pagination"></div>
+         </div>
+      </section>
+
+   </section>
 
    </div>
 
-   
+
    <!-- Browse By Category -->
 
    <section class="category">
@@ -125,7 +125,7 @@ include 'components/wishlist_cart.php';
                <h3>Laptop</h3>
             </a>
 
-            <a href="category.php?category=tv" class="swiper-slide slide">
+            <a href="category.php?cartegory=tv" class="swiper-slide slide">
                <img src="images/icon-2.png" alt="">
                <h3>Television</h3>
             </a>
@@ -135,27 +135,27 @@ include 'components/wishlist_cart.php';
                <h3>Camera</h3>
             </a>
 
-            <a href="category.php?category=mouse" class="swiper-slide slide">
+            <a href="category.php?cartegory=mouse" class="swiper-slide slide">
                <img src="images/icon-4.png" alt="">
                <h3>Mouse</h3>
             </a>
 
-            <a href="category.php?category=fridge" class="swiper-slide slide">
+            <a href="category.php?cartegory=fridge" class="swiper-slide slide">
                <img src="images/icon-5.png" alt="">
                <h3>Fridge</h3>
             </a>
 
-            <a href="category.php?category=washing" class="swiper-slide slide">
+            <a href="category.php?cartegory=washing" class="swiper-slide slide">
                <img src="images/icon-6.png" alt="">
                <h3>Washing machine</h3>
             </a>
 
-            <a href="category.php?category=smartphone" class="swiper-slide slide">
+            <a href="category.php?cartegory=smartphone" class="swiper-slide slide">
                <img src="images/icon-7.png" alt="">
                <h3>Smartphone</h3>
             </a>
 
-            <a href="category.php?category=watch" class="swiper-slide slide">
+            <a href="category.php?cartegory=watch" class="swiper-slide slide">
                <img src="images/icon-8.png" alt="">
                <h3>Watch</h3>
             </a>
@@ -259,7 +259,7 @@ include 'components/wishlist_cart.php';
       </div>
    </section>
 
-   
+
 
    <?php
    // Step 1: Extract distinct product names from orders
