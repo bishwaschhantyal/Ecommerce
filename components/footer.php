@@ -20,9 +20,9 @@
 
       <div class="box">
          <h3>Contact Us.</h3>
-         <a href="tel:9800000000"><i class="fas fa-phone"></i> +977 980 000 0000</a>
-         <a href="tel:9900000000"><i class="fas fa-phone"></i> +977 974 000 0000</a>
-         <a href="#"><i class="fas fa-envelope"></i> Bishwas Chhantyal</a>
+         <a href="tel:9800000000"><i class="fas fa-phone"></i> +977 980 000 2751</a>
+         <a href="tel:9900000000"><i class="fas fa-phone"></i> +977 974 000 1210</a>
+         <a href="#"><i class="fas fa-envelope"></i> Aspiring Developer</a>
          <a href="https://www.google.com/myplace"><i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal </a>
       </div>
 

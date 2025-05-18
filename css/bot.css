@@ -9,7 +9,7 @@ body {
   position: fixed;
   bottom: 90px;
   right: 20px;
-  width: 300px;
+  width: 301px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -61,6 +61,33 @@ body {
   border-radius: 5px;
   outline: none;
 }
+
+.we-are-here-bubble {
+  position: fixed;
+  bottom: 90px; /* adjust to be just above your chat icon */
+  right: 15px;
+  background-color: #ff4081; /* bright pink, like in the image */
+  color: white;
+  padding: 10px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 14px;
+  z-index: 9998;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Speech bubble tail */
+.we-are-here-bubble::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  right: 20px;
+  border-width: 10px 8px 0 8px;
+  border-style: solid;
+  border-color: #ff4081 transparent transparent transparent;
+}
+
 
 .send-btn {
   background: white;

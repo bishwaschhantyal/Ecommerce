@@ -31,7 +31,7 @@ if (isset($_POST['send'])) {
       $insert_message = $conn->prepare("INSERT INTO `messages`(user_id, name, email, number, message) VALUES(?,?,?,?,?)");
       $insert_message->execute([$user_id, $name, $email, $number, $msg]);
 
-      $message[] = 'sent message successfully!';
+      $message[] = 'Successfully message sent!';
    }
 }
 
@@ -70,7 +70,7 @@ if (isset($_POST['send'])) {
          <i class="fas fa-phone"></i>
          <div>
             <h4>Call To Us</h4>
-            <p>We are available 24/7, 7 days a week.<br>Phone: +977 9823696701</p>
+            <p>We are available 24/7, 7 days a week.<br>Phone: +977 9823696700/p>
          </div>
       </div>
       <hr>
@@ -78,7 +78,7 @@ if (isset($_POST['send'])) {
          <i class="fas fa-envelope"></i>
          <div>
             <h4>Write To Us</h4>
-            <p>Fill out our form and we will contact you within 24 hours.<br><br>
+            <p>Fill out our form and we will get back to you within 24 hours.<br><br>
                Emails: customer@shopper.com<br>
                support@shopper.com
             </p>

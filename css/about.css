@@ -150,6 +150,7 @@
 
 .reviews-slider {
   max-width: 1200px;
+  height: 400px;
   margin: auto;
 }
 
@@ -166,10 +167,9 @@
 }
 
 .reviews .swiper-slide img {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 150px;
   object-fit: cover;
-  border-radius: 50%;
   margin-bottom: 1rem;
 }
 
@@ -241,4 +241,20 @@
   font-size: 0.9rem;
   color: #666;
   line-height: 1.4;
+}
+
+.social-icons {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.social-icons a {
+   color: #555;
+   font-size: 16px;
+   transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+   color: #0077b5; 
 }

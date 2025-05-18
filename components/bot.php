@@ -24,6 +24,10 @@
       <button class="send-btn">✈️</button>
     </div>
   </div>
+  <div class="we-are-here-bubble">
+    We are here!
+  </div>
+
 
   <div class="chat-icon">
     💬
@@ -81,11 +85,11 @@
         } else if (lowerMsg.includes("help")) {
           botMsg.textContent = "Sure! I can help with orders, browsing gadgets, payments, and more.";
         } else if (lowerMsg.includes("what's your name") || lowerMsg.includes("who are you")) {
-          botMsg.textContent = "I'm your shopping assistant bot 🤖 here to help you with gadgets!";
+          botMsg.textContent = "I'm your shopping assistant bot .Here to help you with gadgets!";
         } else if (lowerMsg.includes("thank you") || lowerMsg.includes("thanks")) {
           botMsg.textContent = "You're welcome! Let me know if you need anything else.";
         } else if (lowerMsg.includes("you're amazing") || lowerMsg.includes("good bot")) {
-          botMsg.textContent = "Aww, thank you! 😊 You're awesome too!";
+          botMsg.textContent = "Awww, thank you! 😊 You're awesome too!";
         } else if (lowerMsg.includes("tell me a joke")) {
           botMsg.textContent = "Why did the gadget go to school? Because it wanted to be smarter!";
         } else if (lowerMsg.includes("what can you do")) {
@@ -230,7 +234,7 @@
         } else if (lowerMsg.includes("payment failed")) {
           botMsg.textContent = "If your payment failed, try again or contact your payment provider for assistance.";
         } else {
-          botMsg.textContent = "I'm your gadget assistant 🤖. Ask me anything about shopping or just say hi!";
+          botMsg.textContent = "I'm your gadget assistant. Ask me anything about shopping or just say hi!";
         }
 
         chatBody.appendChild(botMsg);
