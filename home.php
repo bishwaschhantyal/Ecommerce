@@ -214,9 +214,6 @@ include 'components/wishlist_cart.php';
       </div>
 
    </section>
-
-
-
    <!-- New Arrivals -->
    <section class="new-arrival">
       <h2>New Arrival</h2>
