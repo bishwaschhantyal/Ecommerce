@@ -147,7 +147,7 @@ if (isset($_SESSION['user_id'])) {
 
             <div class="swiper-slide slide">
                <img src="images/Shijal.png" alt="">
-               <p>Deep and Suraj were especially helpful in refining our eCommerce features. Truly a passionate and dedicated group.</p>
+               <p>Dipendra and Suraj were especially helpful in refining our eCommerce features. Truly a passionate and dedicated group.</p>
                <h3><a href="" target="_blank">Shijal Shakya</a></h3>
                <div class="social-icons">
                      <a href="#"><i class="fab fa-twitter"></i></a>
