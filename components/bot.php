@@ -84,6 +84,18 @@
           botMsg.textContent = "I'm just a bot, but I'm excited to help you shop for cool gadgets! 😊";
         } else if (lowerMsg.includes("help")) {
           botMsg.textContent = "Sure! I can help with orders, browsing gadgets, payments, and more.";
+        }else if (lowerMsg.includes("iphone 15") || lowerMsg.includes("iphone fifteen")) {
+          botMsg.textContent = "The iPhone 15 Pro is available now! Choose from several colors and storage options. Check the product page for more details.";
+        } else if (lowerMsg.includes("ps5") || lowerMsg.includes("playstation 5") || lowerMsg.includes("sony console")) {
+          botMsg.textContent = "The PlayStation 5 is in stock! We also have bundle deals and accessories.";
+        } else if (lowerMsg.includes("macbook")) {
+          botMsg.textContent = "We offer the latest MacBook Air and Pro models. Want to compare specs?";
+        } else if (lowerMsg.includes("smart watch") || lowerMsg.includes("smartwatch")) {
+          botMsg.textContent = "We carry Apple Watches, Samsung Galaxy Watches, and more. Which features are you looking for?";
+        } else if (lowerMsg.includes("airpods")) {
+          botMsg.textContent = "AirPods and AirPods Pro are available in our accessories section.";
+        } else if (lowerMsg.includes("ipad")) {
+          botMsg.textContent = "We have iPad models including the iPad Pro and iPad Air. Want help choosing one?";
         } else if (lowerMsg.includes("what's your name") || lowerMsg.includes("who are you")) {
           botMsg.textContent = "I'm your shopping assistant bot .Here to help you with gadgets!";
         } else if (lowerMsg.includes("thank you") || lowerMsg.includes("thanks")) {
