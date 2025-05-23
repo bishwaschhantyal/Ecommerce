@@ -30,7 +30,6 @@
    transition: transform 0.2s ease;
    width: 250px;
    height: 430px;
-   /* Force equal height */
    margin: 10px;
    overflow: hidden;
 }
@@ -97,19 +96,37 @@
    margin-bottom: 10px;
 }
 
-.search-box-item .name {
+/* Updated name wrapper to align text in a single line */
+.name-wrapper {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   flex-wrap: nowrap;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   width: 100%;
+}
+
+.name-wrapper .name {
+   font-size: 16px;
+   font-weight: bold;
+   color: #333;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+/* If you're not using wrapper, and just want single-line name */
+.name {
    font-size: 16px;
    font-weight: bold;
    color: #333;
    margin: 10px 0;
    text-align: center;
-   min-height: 40px;
-   line-height: 20px;
+   white-space: nowrap;
    overflow: hidden;
    text-overflow: ellipsis;
-   display: -webkit-box;
-   -webkit-line-clamp: 2;
-   -webkit-box-orient: vertical;
 }
 
 .price-btn {
@@ -160,6 +177,10 @@
       width: 100%;
       max-width: 320px;
       height: auto;
-      /* Allow height to grow naturally on small screens */
+   }
+
+   .name-wrapper {
+      flex-direction: column;
+      white-space: normal;
    }
 }

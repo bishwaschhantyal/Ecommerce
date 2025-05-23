@@ -73,12 +73,12 @@ if (isset($_POST['submit'])) {
                <p>Enter your details below</p>
             </div>
             <div class="credentials">
-               <input type="email" name="email" required placeholder="enter your email" maxlength="50" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-               <input type="password" name="pass" required placeholder="enter your password" maxlength="20" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+               <input type="email" name="email" required placeholder="Enter your email" maxlength="50" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+               <input type="password" name="pass" required placeholder="Enter your password" maxlength="20" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
             </div>
 
             <div class="login">
-               <input type="submit" value="login now" class="btn" name="submit">
+               <input type="submit" value="Login Now" class="btn" name="submit">
                <div class="bottom-content">
                   <p>Don't have an account?</p>
                   <a href="user_register.php" class="option-btn">Register Now.</a>
