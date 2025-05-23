@@ -28,6 +28,7 @@ $signature = $_SESSION['epay']['signature'];
 
 <body>
 
+<div class="esewa">
     <div class="order-success">
         <h2>🎉 Your order has been placed!</h2>
         <p>Thank you for shopping with us.</p>
@@ -50,6 +51,8 @@ $signature = $_SESSION['epay']['signature'];
         <input type="hidden" name="signature" value="<?= $signature; ?>">
         <input type="submit" value="Pay with eSewa" class="btn">
     </form>
+
+</div>
 
 </body>
 

@@ -78,8 +78,8 @@ if (isset($_GET['delete_all'])) {
                      <div class="price">Nrs.<?= $fetch_wishlist['price']; ?>/-</div>
                      <input type="number" name="qty" class="qty" min="1" max="99" onkeypress="if(this.value.length == 2) return false;" value="1">
                   </div>
-                  <input type="submit" value="add to cart" class="btn" name="add_to_cart">
-                  <input type="submit" value="delete item" onclick="return confirm('delete this from wishlist?');" class="delete-btn" name="delete">
+                  <input type="submit" value="Add to cart" class="btn" name="add_to_cart">
+                  <input type="submit" value="Delete item" onclick="return confirm('delete this from wishlist?');" class="delete-btn" name="delete">
                </form>
          <?php
             }
@@ -92,7 +92,7 @@ if (isset($_GET['delete_all'])) {
       <div class="wishlist-total">
          <p>Grand Total : <span>Nrs.<?= $grand_total; ?>/-</span></p>
          <a href="shop.php" class="option-btn">Continue Shopping.</a>
-         <a href="wishlist.php?delete_all" class="delete-btn <?= ($grand_total > 1) ? '' : 'disabled'; ?>" onclick="return confirm('delete all from wishlist?');">delete all item</a>
+         <a href="wishlist.php?delete_all" class="delete-btn <?= ($grand_total > 1) ? '' : 'disabled'; ?>" onclick="return confirm('delete all from wishlist?');">Delete all item</a>
       </div>
 
    </section>
